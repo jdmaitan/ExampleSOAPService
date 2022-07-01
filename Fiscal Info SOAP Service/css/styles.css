@@ -1,0 +1,178 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #daeaf6;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    font-weight: bold;
+}
+
+.AvailableMethods {
+    cursor: pointer;
+}
+
+.methodDocumentation {
+    display: none;
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid #000000;
+    background-color: #bde0fe;
+    width: 45%;
+    overflow: auto;
+}
+
+.methodTest {
+    display: none;
+    border-radius: 6px;
+    padding: 5px;
+    border: 3px solid #000000;
+    background-color: #bde0fe;
+}
+
+fieldset {
+    background-color: #bde0fe;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 30%;
+}
+
+legend {
+    font-size: 20px;
+}
+
+.smallDoc {
+    height: 210px;
+}
+
+.mediumDoc {
+    height: 280px;
+}
+
+.largeDoc {
+    height: 360px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #e2e2e2;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+    .navbar a {
+        float: left;
+        font-weight: bold;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+.active {
+    background-color: #f9f9f9;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        font-family: inherit;
+        margin: 0;
+        background-color: inherit;
+    }
+
+    .navbar a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
+        background-color: #ddd;
+    }
+
+.activeDropButton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 9%;
+}
+
+input[type=text], input[type=password], label {
+    display: block;
+}
+
+input[type=text], input[type=password], select {
+    border-radius: 3px;
+    width: 80%;
+}
+
+.inputBox {
+    margin: 15px;
+}
+
+input {
+    margin: auto;
+    border: 2px solid black
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black
+}
+
+input[type=date] {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid black
+}
